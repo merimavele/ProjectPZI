@@ -1,0 +1,43 @@
+.naslov  {
+  font-size: larger;
+  color: black;
+ 
+  margin-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+  font-size: 2rem;
+  letter-spacing: 20px;
+  
+  
+  font-style: italic;
+   
+  }
+.main-nav {
+ 
+  background-color:#1C86EE; 
+
+}
+.main-nav li {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+}
+.main-nav li:hover {
+  background-color: turquoise;
+}
+.main-nav li a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
+.tekst1 {
+  font-size: larger;
+  margin-right: 20px;
+  color: black;
+}
+.tekst2 {
+  font-style: italic;
+  margin-top: 50px;
+  color: black;
+  
+}
