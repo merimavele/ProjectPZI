@@ -22,7 +22,9 @@ include("header1.php");
 include("navnpp.php");
 ?>
   </div>
-  <div class="col-sm-9" style="background-image: url(npp.jpg);">
+  <div class="col-sm-9" >
+  <p> <img src="npp.jpg" width="100%" height="100%px" alt="">  </p>
+   
   
 </div>
 </div>
