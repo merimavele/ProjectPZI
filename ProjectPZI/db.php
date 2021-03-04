@@ -1,5 +1,5 @@
 <?php
-    $konekcija=mysqli_connect('localhost','fpmoz062021','csdigital2021','onlinemath');
+    $konekcija=mysqli_connect('localhost','fpmoz062021','csdigital2021','fpmoz062021');
 
 
 if (!$konekcija) {
