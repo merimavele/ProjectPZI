@@ -24,7 +24,7 @@ include("header1.php");
 <div class=".container-fluid">
 <div class= "row" style="margin-top: 15px; ">
 <div class="col-sm-5">
-<img src="kkk1.jpg" width="600"  height="350" align="left" vspace="100"  alt style=" margin-top: 15px;">
+<img src="kkk1.jpg" width="570px"  height="350px" align="left"  alt style=" margin-top: 15px;">
      </div>
 
 <div class="col-sm-7">
