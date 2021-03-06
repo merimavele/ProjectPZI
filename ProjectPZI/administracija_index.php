@@ -27,8 +27,8 @@ include("nav1.php");
   </div>
   
   <div class="col-sm-9" >
-  <p> <img src="administracija.jpg" width="100%" height="100%px" alt="">  </p>
-   
+  <p> <img src="administracija.jpg"  width="100%" height="670px" alt style="
+    margin-top: 50px; ">  </p>
   </div>
 </div>
 </div>
@@ -39,3 +39,4 @@ include("nav1.php");
   
 <?php
 include("podnozje.php");?>
+
