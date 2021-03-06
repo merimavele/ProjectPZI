@@ -4,7 +4,7 @@
 </html>
 <footer style =  "text-align: center;
   padding: 3px;
-background-color:#0040ff;
+background-color:#0040ff; margin-top: 100%;
 
 ">
 
