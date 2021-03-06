@@ -12,7 +12,7 @@ $prijavljeni_korisnik = Korisnik::$prijavljeniKorisnik;
 $rezultat = mysqli_query($konekcija, $upit);
 $prijavljeni_korisnik = mysqli_fetch_assoc($rezultat);
 
-if (!$prijavljeni_korisnik) header("Location: login.php");
+if (!$prijavljeni_korisnik) header("Location: index.php");
 if ($prijavljeni_korisnik["uloga"] != "Administrator") {
     header("Location: adminstracijaprovjera.php");}
  $naslov=" Administracija ";
@@ -26,12 +26,16 @@ include("nav1.php");
 ?>
   </div>
   
-  <div class="col-sm-9" style="background-image: url(administracija.jpg);">
+  <div class="col-sm-9" >
+  <p> <img src="administracija.jpg" width="100%" height="100%px" alt="">  </p>
+   
+  </div>
+</div>
+</div>
+</div>
+  
 
-    
 
-</div>
-</div>
-</div>
+  
 <?php
 include("podnozje.php");?>
