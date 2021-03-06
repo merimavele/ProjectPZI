@@ -7,9 +7,9 @@ class Baza
 
     // MySQL podaci
     private $RACUNALO = 'localhost';
-    private $KORISNIK = 'root';
-    private $LOZINKA = '';
-    private $BAZA = 'onlinemath';
+    private $KORISNIK = 'fpmoz062021';
+    private $LOZINKA = 'csdigital2021';
+    private $BAZA = 'fpmoz062021';
 
     /**
      * Konstruktor klase.
