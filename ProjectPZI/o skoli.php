@@ -25,7 +25,7 @@ include("header1.php");
 
                 <p> <img src="skola.jpg" width="600"  height="350" align="left" vspace="100"  alt style=" margin-top: 15px;">  </p>
                
-             >
+             
              
             </div>
             <div class="col-sm-6" style="
