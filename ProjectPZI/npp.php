@@ -22,14 +22,17 @@ include("header1.php");
 include("navnpp.php");
 ?>
   </div>
-  <div class="col-sm-9" >
-  <p> <img src="npp.jpg" width="100%" height="100%px" alt="">  </p>
+ <div class="col-sm-9" >
+  <p> <img src="npp.jpg" width="100%" height="670px" alt style="
+    margin-top: 50px; ">  </p>
    
-  
+  </div>
 </div>
 </div>
 </div>
 <?php
 include("podnozje.php");?>
+
+ 
 
  
