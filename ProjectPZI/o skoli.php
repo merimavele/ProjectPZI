@@ -11,7 +11,7 @@ $prijavljeni_korisnik = Korisnik::$prijavljeniKorisnik;
 $rezultat = mysqli_query($konekcija, $upit);
 $prijavljeni_korisnik = mysqli_fetch_assoc($rezultat);
 
-if (!$prijavljeni_korisnik) header("Location: login.php");
+if (!$prijavljeni_korisnik) header("Location: index.php");
 $naslov="O školi";
 include("header1.php");
 ?>>
