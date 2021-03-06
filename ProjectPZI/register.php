@@ -11,7 +11,7 @@ if (isset($_POST["imeKorisnika"])) {
         $SQL.= $_POST["prezimeKorisnika"] . "', '";
         $SQL.= $_POST["emailKorisnika"] . "', '";
         $SQL.= md5($_POST["lozinkaKorisnika"]) . "', 'učenik');";
-        $rezultat = mysqli_query($konekcija, $SQL);
+         $uspjeh = "Uspješno ste se registrovali na sustav! Prijavite se!";
     }
 }
 $naslov = "Registracija na sustav";
@@ -25,6 +25,9 @@ include("static/header.php");
             <h5>Registracija na sustav OnlineMaths</h5>
             <?php if (isset($greska)): ?>
             <div class="alert alert-danger"><?php echo($greska) ?></div>
+            <?php endif ?>
+            <?php if (isset($uspjeh)): ?>
+            <div class="alert alert-success"><?php echo($uspjeh) ?></div>
             <?php endif ?>
             <form method="POST" action="register.php">
                 <div class="form-group">
