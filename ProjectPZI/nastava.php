@@ -22,11 +22,14 @@ include("header1.php");
 include("nav.php");
 ?>
   </div>
-            <div class="col-sm-9" style="background-image: url(nastavaslika.jpg);">
+             <div class="col-sm-9" >
+  <p> <img src="nastavaslika.jpg"  width="100%" height="670px" alt style="
+    margin-top: 50px; ">  </p>
    
+  </div>
 </div>
 </div>
+</div>
+  
 <?php
 include("podnozje.php");?>
-
- 
