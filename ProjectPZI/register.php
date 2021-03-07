@@ -11,7 +11,8 @@ if (isset($_POST["imeKorisnika"])) {
         $SQL.= $_POST["prezimeKorisnika"] . "', '";
         $SQL.= $_POST["emailKorisnika"] . "', '";
         $SQL.= md5($_POST["lozinkaKorisnika"]) . "', 'učenik');";
-         $uspjeh = "Uspješno ste se registrovali na sustav! Prijavite se!";
+        $rezultat = mysqli_query($konekcija, $SQL);
+        $uspjeh = "Uspješno ste se registrovali na sustav! Prijavite se!";
     }
 }
 $naslov = "Registracija na sustav";
